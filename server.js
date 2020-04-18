@@ -4,7 +4,7 @@ import webpack from 'webpack';
 import middleware from './src/middleware';
 
 const app = express();
-"test"
+"test" "testing again"
 if (process.env.NODE_ENV === 'development') {
   const config = require('./webpack.config.dev');
   const compiler = webpack(config);
